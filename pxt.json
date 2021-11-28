@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-microbitorchestra": "github:captaincredible/pxt-microbitorchestra#master"
+        "pxt-microbitorchestra": "github:captaincredible/pxt-microbitorchestra#v0.3.56"
     },
     "files": [
         "main.blocks",

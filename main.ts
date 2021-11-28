@@ -1,4 +1,4 @@
-let controllerNumber = 15
+let controllerNumber = 0
 let rabbitNames: string[] = ["Ali", "Eir", "Ina", "Una", "Per", "Alf", "Ada", "Ela", "Eli", "Mor", "Oda", "Ask", "Kai", "Ida", "Kim", "Eva"]
 let sendName = rabbitNames[controllerNumber]
 let myMusicianNumber = controllerNumber
@@ -7,6 +7,8 @@ basic.showString(sendName, 50)
 let myLedTimer = 0;
 let myLedIsOn = true
 let basicMode = false
+
+
 
 if (input.buttonIsPressed(Button.A)) {
     OrchestraMusician.setUpAsMusician(myMusicianNumber)
